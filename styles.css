@@ -61,7 +61,9 @@ nav a:hover{
 }
 
 .testing a{
+    text-decoration: none;
     background-color: #48BB78;
+    color:white;
 }
 
 .stories h2{
@@ -110,3 +112,71 @@ nav ul{
     justify-content:space-evenly;
     min-width: 400px;
 }
+
+.overview-hero .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.overview-hero-image{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.overview-hero img{
+    width: 150px;
+    height: auto;
+
+}
+
+.overview-hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: last baseline;
+    font-weight: 500;
+}
+
+.learn-about .container .cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1.2fr;
+    width: 300px;
+    height: 400px;
+    font-weight: 500;
+}
+
+.testing .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.testing{
+    padding: 80px 0px;
+    margin: 50px 0px;
+}
+
+.testing .cta{
+    display: flex;
+    justify-self: center;
+}
+
+.cta a{
+    padding:10px 30px;
+    border-radius: 5px ;
+}
+
