@@ -46,7 +46,7 @@ nav a:hover{
 .learn-about .card{
     border-color:#E2E8F0;
     border-radius:5px;
-    box-shadow:10px 10px 10px rgba(0,0,0,0.2)
+    box-shadow:5px 5px 10px 5px rgba(0,0,0,0.2)
 }
 
 .learn-about .card h3{
@@ -140,13 +140,13 @@ nav ul{
     flex-direction: column;
     justify-content: center;
     align-items: last baseline;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .learn-about .container .cards{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -154,9 +154,9 @@ nav ul{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows:1fr 1.2fr;
-    width: 300px;
-    height: 400px;
-    font-weight: 500;
+    width: 280px;
+    height: 470px;
+    font-weight: 600;
 }
 
 .testing .container{
@@ -171,6 +171,55 @@ nav ul{
 .testing{
     padding: 80px 0px;
     margin: 50px 0px;
+}
+
+.article-body{
+    display: block;
+
+}
+
+.card .card-body h3{
+    margin: 9px 9px 10px; 
+}
+
+.card .card-body p{
+    margin: 10px;
+}
+
+.newsletter .container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 60px 0px;
+    justify-items: center;
+    align-items: center;
+    width: 450px;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+.newsletter .container h3{
+    margin: 0px;
+}
+
+#email{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.btn{
+    border-radius: 5px;
+    border-color: white;
+    border-width: 0px;
+    color: white;
+    font-weight: 500;
+    cursor:pointer;
 }
 
 .testing .cta{
@@ -191,7 +240,7 @@ nav ul{
 
 .stories .container a{
     text-decoration: none;
-    
+
 }
 
 .stories .container article{
@@ -199,4 +248,24 @@ nav ul{
     justify-content: space-between;
     align-items: center;
     font-weight: 500;
+}
+
+.card img{
+    justify-content: center;
+    align-items: center;
+    height: 286px;
+    width:280px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+footer{
+    padding:40px 0px
+}
+
+footer .container p{
+    margin:0px;
+}
+
+.article-body a{
+    font-weight: 600;
 }
